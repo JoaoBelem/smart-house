@@ -1,0 +1,27 @@
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.options{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: auto;
+  gap: .5rem;
+}
+
+.options button{
+  width: max-content;
+}
+
+.display{
+  padding: 1rem 1.5rem;
+  background-color: #ddd;
+  border-radius: 1rem;
+}
+.display div{
+  margin-bottom: .3rem;
+}
